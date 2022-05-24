@@ -33,6 +33,9 @@
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
+        <activity
+            android:name=".FoodCategory"
+            android:exported="true"/>
     </application>
 
 </manifest>

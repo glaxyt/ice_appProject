@@ -18,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
         btn_login = findViewById(R.id.btn_login);
         btn_login.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Intent intent = new Intent(LoginActivity.this, appStart.class);
+                Intent intent = new Intent(LoginActivity.this, FoodCategory.class);
                 startActivity(intent);
 
             }
