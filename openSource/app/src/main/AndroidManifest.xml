@@ -36,6 +36,9 @@
         <activity
             android:name=".FoodCategory"
             android:exported="true"/>
+        <activity
+            android:name=".Sample"
+            android:exported="true"/>
     </application>
 
 </manifest>
