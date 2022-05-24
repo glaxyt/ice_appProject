@@ -16,11 +16,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="원하는 음식을 선택해주세요"
-            android:textSize="30dp"
+            android:textSize="27dp"
             android:layout_marginTop="7dp"
             android:layout_marginLeft="14dp"
             android:textStyle="bold"
-            android:textColor="#100E0E"
+
             android:layout_gravity="center"/>
 
     </LinearLayout>
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="일식"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:textColor="#100E0E"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="중식"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:textColor="#100E0E"
                 android:textStyle="bold" />
 
@@ -100,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="치킨"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:textColor="#100E0E"
                 android:textStyle="bold"/>
 
@@ -131,7 +131,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="디저트"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:textColor="#100E0E"
                 android:textStyle="bold"/>
 
@@ -156,7 +156,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="패스트푸드"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:textColor="#100E0E"
                 android:textStyle="bold"/>
 
@@ -181,7 +181,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="피자"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:layout_gravity="center"
                 android:textColor="#100E0E"
                 android:textStyle="bold"/>
@@ -211,7 +211,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="양식"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:layout_gravity="center"
                 android:textColor="#100E0E"
                 android:textStyle="bold"/>
@@ -236,7 +236,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="분식"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:layout_gravity="center"
                 android:textColor="#100E0E"
                 android:textStyle="bold"/>
@@ -261,7 +261,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="한식"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:layout_gravity="center"
                 android:textColor="#100E0E"
                 android:textStyle="bold"/>
@@ -292,7 +292,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="야식"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:layout_gravity="center"
                 android:textColor="#100E0E"
                 android:textStyle="bold"/>
@@ -317,7 +317,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="고기"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:layout_gravity="center"
                 android:textColor="#100E0E"
                 android:textStyle="bold"/>
@@ -342,7 +342,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="아시아"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:layout_gravity="center"
                 android:textColor="#100E0E"
                 android:textStyle="bold"/>
