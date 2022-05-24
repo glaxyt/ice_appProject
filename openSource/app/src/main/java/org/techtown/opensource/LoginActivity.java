@@ -10,17 +10,26 @@ import android.widget.Button;
 public class LoginActivity extends AppCompatActivity {
 
     Button btn_login;
+    Button btn_register;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
         btn_login = findViewById(R.id.btn_login);
+        btn_register = findViewById(R.id.btn_register);
+
         btn_login.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 Intent intent = new Intent(LoginActivity.this, FoodCategory.class);
                 startActivity(intent);
+            }
+        });
 
+        btn_register.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(intent);
             }
         });
     }
