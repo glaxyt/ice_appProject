@@ -19,7 +19,7 @@ public class FoodCategory extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_category);
 
-        btn1 = findViewById(R.id.btn1);
+        btn1 = findViewById(R.id.btn1); //일식 버튼과 연결
         btn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(FoodCategory.this, Sample.class);
@@ -27,7 +27,7 @@ public class FoodCategory extends AppCompatActivity {
             }
         });
 
-        btn2 = findViewById(R.id.btn2);
+        btn2 = findViewById(R.id.btn2); //중식 버튼과 연결
         btn2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(FoodCategory.this, Sample.class);
@@ -35,7 +35,7 @@ public class FoodCategory extends AppCompatActivity {
             }
         });
 
-        btn3 = findViewById(R.id.btn3);
+        btn3 = findViewById(R.id.btn3); //치킨 버튼과 연결
         btn3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(FoodCategory.this, Sample.class);
@@ -43,7 +43,7 @@ public class FoodCategory extends AppCompatActivity {
             }
         });
 
-        btn4 = findViewById(R.id.btn4);
+        btn4 = findViewById(R.id.btn4); //디저트 버튼과 연결
         btn4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(FoodCategory.this, Sample.class);
@@ -51,7 +51,7 @@ public class FoodCategory extends AppCompatActivity {
             }
         });
 
-        btn5 = findViewById(R.id.btn5);
+        btn5 = findViewById(R.id.btn5); //패스트푸드 버튼과 연결
         btn5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(FoodCategory.this, Sample.class);
@@ -59,7 +59,7 @@ public class FoodCategory extends AppCompatActivity {
             }
         });
 
-        btn6 = findViewById(R.id.btn6);
+        btn6 = findViewById(R.id.btn6); //피자 버튼과 연결
         btn6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(FoodCategory.this, Sample.class);
@@ -67,7 +67,7 @@ public class FoodCategory extends AppCompatActivity {
             }
         });
 
-        btn7 = findViewById(R.id.btn7);
+        btn7 = findViewById(R.id.btn7); //양식 버튼과 연결
         btn7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(FoodCategory.this, Sample.class);
@@ -75,7 +75,7 @@ public class FoodCategory extends AppCompatActivity {
             }
         });
 
-        btn8 = findViewById(R.id.btn8);
+        btn8 = findViewById(R.id.btn8); //분식 버튼과 연결
         btn8.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(FoodCategory.this, Sample.class);
@@ -83,7 +83,7 @@ public class FoodCategory extends AppCompatActivity {
             }
         });
 
-        btn9 = findViewById(R.id.btn9);
+        btn9 = findViewById(R.id.btn9); //한식 버튼과 연결
         btn9.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(FoodCategory.this, Sample.class);
@@ -91,7 +91,7 @@ public class FoodCategory extends AppCompatActivity {
             }
         });
 
-        btn10 = findViewById(R.id.btn10);
+        btn10 = findViewById(R.id.btn10); //야식 버튼과 연결
         btn10.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(FoodCategory.this, Sample.class);
@@ -99,7 +99,7 @@ public class FoodCategory extends AppCompatActivity {
             }
         });
 
-        btn11 = findViewById(R.id.btn11);
+        btn11 = findViewById(R.id.btn11); //고기 버튼과 연결
         btn11.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(FoodCategory.this, Sample.class);
@@ -107,7 +107,7 @@ public class FoodCategory extends AppCompatActivity {
             }
         });
 
-        btn12 = findViewById(R.id.btn12);
+        btn12 = findViewById(R.id.btn12); //아시아 버튼과 연결
         btn12.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(FoodCategory.this, Sample.class);

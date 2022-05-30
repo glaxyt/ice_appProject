@@ -12,6 +12,7 @@
         android:layout_height="50dp"
         android:orientation="horizontal">
 
+        <!--원하는 음식을 선택하세요 text-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -24,6 +25,7 @@
 
     </LinearLayout>
 
+    <!--첫번째 열-->
     <LinearLayout
         android:id="@+id/lay1"
         android:layout_width="match_parent"
@@ -36,6 +38,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <!--일식 버튼-->
             <ImageButton
                 android:id="@+id/btn1"
                 android:layout_width="112dp"
@@ -45,6 +48,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/japan" />
 
+            <!--일식 text-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -60,6 +64,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--중식 버튼-->
             <ImageButton
                 android:id="@+id/btn2"
                 android:layout_width="110dp"
@@ -69,6 +74,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/china" />
 
+            <!--중식 text-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -85,6 +91,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--치킨 버튼-->
             <ImageButton
                 android:id="@+id/btn3"
                 android:layout_width="118dp"
@@ -94,6 +101,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/chicken" />
 
+            <!--치킨 text-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -107,6 +115,7 @@
 
     </LinearLayout>
 
+    <!--두번째 열-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="130dp">
@@ -116,6 +125,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--디저트 버튼-->
             <ImageButton
                 android:id="@+id/btn4"
                 android:layout_width="121dp"
@@ -125,6 +135,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/dissert" />
 
+            <!--디저트 text-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -141,6 +152,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--패스트푸드 버튼-->
             <ImageButton
                 android:id="@+id/btn5"
                 android:layout_width="114dp"
@@ -150,6 +162,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/fastfood" />
 
+            <!--패스트푸드 text-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -167,6 +180,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--피자 버튼-->
             <ImageButton
                 android:id="@+id/btn6"
                 android:layout_width="wrap_content"
@@ -176,6 +190,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="7dp"/>
 
+            <!--피자 text-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -188,6 +203,7 @@
         </LinearLayout>
     </LinearLayout>
 
+    <!--세번째 열-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="130dp">
@@ -197,6 +213,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--양식 버튼-->
             <ImageButton
                 android:id="@+id/btn7"
                 android:layout_width="121dp"
@@ -206,6 +223,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/yangsik" />
 
+            <!--양식 text-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -222,6 +240,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--분식-->
             <ImageButton
                 android:id="@+id/btn8"
                 android:layout_width="wrap_content"
@@ -231,6 +250,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/bunsik" />
 
+            <!--분식 text-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -247,6 +267,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--한식 버튼-->
             <ImageButton
                 android:id="@+id/btn9"
                 android:layout_width="wrap_content"
@@ -256,6 +277,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="7dp"/>
 
+            <!--한식 text-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -269,6 +291,7 @@
 
     </LinearLayout>
 
+    <!--네번째 열-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="130dp">
@@ -278,6 +301,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--야식 버튼-->
             <ImageButton
                 android:id="@+id/btn10"
                 android:layout_width="124dp"
@@ -287,6 +311,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/night" />
 
+            <!--야식 text-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -303,6 +328,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--고기-->
             <ImageButton
                 android:id="@+id/btn11"
                 android:layout_width="116dp"
@@ -312,6 +338,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/meat" />
 
+            <!--고기 text-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -328,6 +355,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--아시아 버튼-->
             <ImageButton
                 android:id="@+id/btn12"
                 android:layout_width="125dp"
@@ -337,6 +365,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/asian" />
 
+            <!--아시아 text-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
