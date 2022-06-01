@@ -7,11 +7,29 @@
     tools:context=".Sample">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:text="gps / 게시판 / 프로필 설정"
-        android:textSize="50dp">
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
     </TextView>
+
+    <Button
+        android:id="@+id/gg"
+        android:layout_width="123dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="220dp"
+        android:backgroundTint="#9C27B0"
+        android:text="@string/gg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
