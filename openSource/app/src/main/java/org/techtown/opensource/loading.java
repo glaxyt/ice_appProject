@@ -23,9 +23,9 @@ public class loading extends AppCompatActivity {
             public void run() {
 
                 Intent intent = new Intent(loading.this, LoginActivity.class);
-                startActivity(intent);  //Loagin화면을 띄운다.
+                startActivity(intent);  //Loading 화면을 띄운다.
                 finish();   //현재 액티비티 종료
             }
-        },2000); // 화면에 Logo 2초간 보이기
+        },2000); // 화면에 로딩화면 2초간 보이기
     }
 }

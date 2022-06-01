@@ -2,8 +2,11 @@ package org.techtown.opensource;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.view.Menu;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,7 +15,27 @@ public class FoodCategory extends AppCompatActivity {
     private ImageButton btn1, btn2, btn3, btn4, btn5, btn6,
             btn7, btn8, btn9, btn10, btn11, btn12;
 
+    // 타이틀 바에 프로필 버튼 추가를 위해 menu dir에서 main_menu 받아오기.
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu)    {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
 
+
+    @Override
+    // 타이틀 바에 프로필 버튼 추가
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId())
+        {
+            case R.id.btn_profile:
+                setContentView(R.layout.activity_food_category);
+                Intent intent_profile = new Intent(FoodCategory.this , editprofile.class);
+                startActivity(intent_profile); // 프로필 수정 액티비티 이동
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
