@@ -12,8 +12,8 @@ import android.widget.EditText;
 
 public class editprofile extends AppCompatActivity {
 
-    private Button button2; // EXIT 버튼
-    private Button clickbutton; // SAVE 버튼
+    private Button btn_exit; // EXIT 버튼
+    private Button btn_save; // SAVE 버튼
 
 
     @Override
@@ -21,8 +21,8 @@ public class editprofile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editprofile);
 
-        clickbutton = (Button)findViewById(R.id.clickbutton);
-        clickbutton.setOnClickListener(new View.OnClickListener() {
+        btn_save = (Button)findViewById(R.id.btn_save);
+        btn_save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder ad = new AlertDialog.Builder(editprofile.this);
@@ -49,11 +49,11 @@ public class editprofile extends AppCompatActivity {
             }
         }); // SAVE 버튼 클릭시 저장 확인,취소
 
-        button2 = findViewById(R.id.button2);
-        button2.setOnClickListener(new View.OnClickListener() {
+        btn_exit = findViewById(R.id.btn_exit);
+        btn_exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(editprofile.this , Sample.class);
+                Intent intent = new Intent(editprofile.this , FoodCategory.class);
                 startActivity(intent); // 처음 액티비티 이동
             }
         });
