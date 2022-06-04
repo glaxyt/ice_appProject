@@ -45,7 +45,6 @@ public class editprofile extends AppCompatActivity {
                     }
                 });
                 ad.show();
-
             }
         }); // SAVE 버튼 클릭시 저장 확인,취소
 
@@ -57,14 +56,5 @@ public class editprofile extends AppCompatActivity {
                 startActivity(intent); // 처음 액티비티 이동
             }
         });
-
-
-
-
-
-
-
     }
-
-
 }
