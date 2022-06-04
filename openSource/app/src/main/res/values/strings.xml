@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">openSource</string>
+    <string name="gg">프로필 수정</string>
+    <string name="profile">프로필 수정</string>
+    <string name="name">이름</string>
+    <string name="phone">전화번호</string>
+    <string name="exit">EXIT</string>
+    <string name="birth">생일</string>
+    <string name="birth2">생일</string>
+    <string name="phone2">전화번호</string>
+    <string name="name2">이름</string>
+    <string name="save">SAVE</string>
 </resources>

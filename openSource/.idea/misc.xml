@@ -3,16 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/dosunghyunandroid/AndroidStudioProjects/openSource/app/src/main/res/layout/activity_app_start.xml" value="0.24739583333333334" />
-        <entry key="..\:/Users/dosunghyunandroid/AndroidStudioProjects/openSource/app/src/main/res/layout/activity_login.xml" value="0.264" />
-        <entry key="..\:/Users/dosunghyunandroid/AndroidStudioProjects/openSource/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/dosunghyunandroid/AndroidStudioProjects/openSource/app/src/main/res/layout/activity_register.xml" value="0.264" />
-        <entry key="..\:/Users/dosunghyunandroid/AndroidStudioProjects/openSource/app/src/main/res/layout/loading.xml" value="0.24739583333333334" />
-        <entry key="..\:/Users/sohnp/AndroidStudioProjects/openSource/openSource/app/src/main/res/layout/activity_app_start.xml" value="0.12335359675785208" />
-        <entry key="..\:/Users/sohnp/AndroidStudioProjects/openSource/openSource/app/src/main/res/layout/activity_food_category.xml" value="0.21784420289855072" />
-        <entry key="..\:/Users/sohnp/AndroidStudioProjects/openSource/openSource/app/src/main/res/layout/activity_login.xml" value="0.12335359675785208" />
-        <entry key="..\:/Users/sohnp/AndroidStudioProjects/openSource/openSource/app/src/main/res/layout/activity_register.xml" value="0.12335359675785208" />
-        <entry key="..\:/Users/sohnp/AndroidStudioProjects/openSource/openSource/app/src/main/res/layout/activity_sample.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/dosunghyunandroid/Desktop/openSource/openSource/app/src/main/res/menu/main_menu.xml" value="0.1787037037037037" />
+        <entry key="..\:/Users/dosunghyunandroid/Desktop/openSource/openSource/app/src/main/res/menu/menu_actionbarbtn.xml" value="0.1787037037037037" />
       </map>
     </option>
   </component>
