@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OpenSource">
         <activity
+            android:name=".NoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WriteActivity"
+            android:exported="false" />
+        <activity
             android:name=".editprofile"
             android:exported="false" />
         <activity
@@ -23,9 +29,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyALKv3tO70T5wR_IHyn2-2BrkDniXgno2o"/>
+            android:value="AIzaSyALKv3tO70T5wR_IHyn2-2BrkDniXgno2o" />
+
         <activity
             android:name=".MapActivity"
             android:exported="false" />
@@ -37,7 +45,7 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />

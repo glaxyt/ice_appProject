@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WriteActivity">
+
+    <!-- id값 부여, 텍스트 위치, 크기 등 설정-->
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="글을 작성하시오"
+        android:textSize="50dp"
+        android:textStyle="bold"/>
+
+    <!-- TextView는 화면에 고정적으로 보이는 글씨-->
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제목"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/tv"
+        android:layout_marginLeft="20dp" />
+
+    <!-- EditText는 SAVE버튼 클릭시 activity_notice에 저장이 될 내용을 입력하는 곳-->
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:hint="제목"
+        android:layout_marginBottom="40dp"
+        android:textSize="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/tv_fd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="음식"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/et"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:id="@+id/et_fd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_fd"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+        android:hint="음식"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/tv_cnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_fd"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="내용"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_cnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_cnt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:hint="내용"
+        android:textSize="20dp" />
+
+    <!-- 작성 내용을 저장하게하는 버튼-->
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_cnt"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:text="SAVE"
+        android:textSize="20dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold" />
+
+    <!-- 입력값을 저장안하고 전 화면으로 돌아가게하는 버튼-->
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ok"
+        android:layout_toLeftOf="@+id/ok"
+        android:text="EXIT"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
