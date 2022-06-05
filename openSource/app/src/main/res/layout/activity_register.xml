@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+        <!-- EditText를 이용하여 아이디를 작성할 수 있는 공백 란 제작. -->
     <EditText
         android:id="@+id/et_pass"
         android:layout_width="wrap_content"
@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="@+id/et_id"
         app:layout_constraintStart_toStartOf="@+id/et_id"
         app:layout_constraintTop_toBottomOf="@+id/et_id" />
-
+        <!-- EditText를 이용하여 비밀번호를 작성할 수 있는 공백 란 제작. -->
     <EditText
         android:id="@+id/et_name"
         android:layout_width="wrap_content"
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="@+id/et_pass"
         app:layout_constraintStart_toStartOf="@+id/et_pass"
         app:layout_constraintTop_toBottomOf="@+id/et_pass" />
-
+        <!-- EditText를 이용하여 이름을 작성할 수 있는 공백 란 제작. -->
     <EditText
         android:id="@+id/et_age"
         android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
         app:layout_constraintEnd_toEndOf="@+id/et_name"
         app:layout_constraintStart_toStartOf="@+id/et_name"
         app:layout_constraintTop_toBottomOf="@+id/et_name" />
-
+        <!-- EditText를 이용하여 나이를 작성할 수 있는 공백 란 제작. -->
     <Button
         android:id="@+id/btn_register"
         android:layout_width="0dp"
@@ -66,4 +66,5 @@
         app:layout_constraintEnd_toEndOf="@+id/et_age"
         app:layout_constraintStart_toStartOf="@+id/et_age"
         app:layout_constraintTop_toBottomOf="@+id/et_age" />
+        <!-- 회원가입을 완료할 수 있는 버튼. -->
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     tools:context=".MainActivity">
-
+    <!-- 배경색, 화면 구성, 로딩 모션 화면 중앙에 배치 -->
     <com.github.ybq.android.spinkit.SpinKitView
         android:id="@+id/spin_kit"
         style="@style/SpinKitView.Large.Wave"
@@ -15,5 +15,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         app:SpinKit_Color="#FFFFFF" />
-
+    <!-- 깃허브 로딩 화면 구성해주는 github의 오픈소스에서 element 구성 -->
 </LinearLayout>
+
