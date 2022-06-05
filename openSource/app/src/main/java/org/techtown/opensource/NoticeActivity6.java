@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class NoticeActivity6 extends AppCompatActivity {
 
-    private Button btn_post_6; //게시글 작성 버튼
+    private Button btn_post_6, btnpost6; //게시글 작성 버튼
     private TextView tv_6; //게시글이 저장될 공간
 
     @Override
@@ -29,6 +29,15 @@ public class NoticeActivity6 extends AppCompatActivity {
             public void onClick(View view) { //intent를 활용하여 WriteActivity로 화면전환
                 Intent intent = new Intent(NoticeActivity6.this, WriteActivity.class);
                 intent.putExtra("key", 6);
+                startActivity(intent);
+            }
+        });
+
+        btnpost6 = findViewById(R.id.btnpost6);
+        btnpost6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(NoticeActivity6.this, FoodCategory.class);
                 startActivity(intent);
             }
         });
