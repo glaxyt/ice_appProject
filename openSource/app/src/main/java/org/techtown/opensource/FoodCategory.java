@@ -10,6 +10,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.io.Serializable;
+
 public class FoodCategory extends AppCompatActivity {
 
     private ImageButton btn1, btn2, btn3, btn4, btn5, btn6,
@@ -46,6 +48,7 @@ public class FoodCategory extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(FoodCategory.this, MapActivity.class);
+                intent.putExtra("key", 1);
                 startActivity(intent);
             }
         });
@@ -53,7 +56,8 @@ public class FoodCategory extends AppCompatActivity {
         btn2 = findViewById(R.id.china); //중식 버튼과 연결
         btn2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(FoodCategory.this, Sample.class);
+                Intent intent = new Intent(FoodCategory.this, MapActivity.class);
+                intent.putExtra("key", 2);
                 startActivity(intent);
             }
         });
@@ -61,7 +65,8 @@ public class FoodCategory extends AppCompatActivity {
         btn3 = findViewById(R.id.chicken); //치킨 버튼과 연결
         btn3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(FoodCategory.this, Sample.class);
+                Intent intent = new Intent(FoodCategory.this, MapActivity.class);
+                intent.putExtra("key", 3);
                 startActivity(intent);
             }
         });
@@ -69,7 +74,8 @@ public class FoodCategory extends AppCompatActivity {
         btn4 = findViewById(R.id.dissert); //디저트 버튼과 연결
         btn4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(FoodCategory.this, Sample.class);
+                Intent intent = new Intent(FoodCategory.this, MapActivity.class);
+                intent.putExtra("key", 4);
                 startActivity(intent);
             }
         });
@@ -77,7 +83,8 @@ public class FoodCategory extends AppCompatActivity {
         btn5 = findViewById(R.id.fastfood); //패스트푸드 버튼과 연결
         btn5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(FoodCategory.this, Sample.class);
+                Intent intent = new Intent(FoodCategory.this, MapActivity.class);
+                intent.putExtra("key", 5);
                 startActivity(intent);
             }
         });
@@ -85,7 +92,8 @@ public class FoodCategory extends AppCompatActivity {
         btn6 = findViewById(R.id.pizza); //피자 버튼과 연결
         btn6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(FoodCategory.this, Sample.class);
+                Intent intent = new Intent(FoodCategory.this, MapActivity.class);
+                intent.putExtra("key", 6);
                 startActivity(intent);
             }
         });
@@ -93,7 +101,8 @@ public class FoodCategory extends AppCompatActivity {
         btn7 = findViewById(R.id.western); //양식 버튼과 연결
         btn7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(FoodCategory.this, Sample.class);
+                Intent intent = new Intent(FoodCategory.this, MapActivity.class);
+                intent.putExtra("key", 7);
                 startActivity(intent);
             }
         });
@@ -101,7 +110,8 @@ public class FoodCategory extends AppCompatActivity {
         btn8 = findViewById(R.id.bunsik); //분식 버튼과 연결
         btn8.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(FoodCategory.this, Sample.class);
+                Intent intent = new Intent(FoodCategory.this, MapActivity.class);
+                intent.putExtra("key", 8);
                 startActivity(intent);
             }
         });
@@ -109,7 +119,8 @@ public class FoodCategory extends AppCompatActivity {
         btn9 = findViewById(R.id.korea); //한식 버튼과 연결
         btn9.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(FoodCategory.this, Sample.class);
+                Intent intent = new Intent(FoodCategory.this, MapActivity.class);
+                intent.putExtra("key", 9);
                 startActivity(intent);
             }
         });
@@ -117,7 +128,8 @@ public class FoodCategory extends AppCompatActivity {
         btn10 = findViewById(R.id.midnight); //야식 버튼과 연결
         btn10.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(FoodCategory.this, Sample.class);
+                Intent intent = new Intent(FoodCategory.this, MapActivity.class);
+                intent.putExtra("key", 10);
                 startActivity(intent);
             }
         });
@@ -125,7 +137,8 @@ public class FoodCategory extends AppCompatActivity {
         btn11 = findViewById(R.id.meat); //고기 버튼과 연결
         btn11.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(FoodCategory.this, Sample.class);
+                Intent intent = new Intent(FoodCategory.this, MapActivity.class);
+                intent.putExtra("key", 11);
                 startActivity(intent);
             }
         });
@@ -133,7 +146,8 @@ public class FoodCategory extends AppCompatActivity {
         btn12 = findViewById(R.id.asia); //아시아 버튼과 연결
         btn12.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(FoodCategory.this, Sample.class);
+                Intent intent = new Intent(FoodCategory.this, MapActivity.class);
+                intent.putExtra("key", 12);
                 startActivity(intent);
             }
         });

@@ -9,29 +9,29 @@
 
     <!-- 배달비게시판 위치,색,크기 -->
     <TextView
-        android:id="@+id/tv"
+        android:id="@+id/tv9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="40sp"
         android:layout_centerHorizontal="true"
-        android:text="일식 게시판"
+        android:text="한식 게시판"
         android:textColor="@android:color/black"
         android:layout_marginTop="10dp"
         android:textStyle="bold" />
 
     <!-- 글 작성시 저장될 공간-->
     <TextView
-        android:id="@+id/tv_1"
+        android:id="@+id/tv_9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tv"
+        android:layout_below="@+id/tv9"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:textSize="30sp" />
 
     <!-- 글 작성 액티비티로 넘어가게해줄 버튼-->
     <Button
-        android:id="@+id/btn_post"
+        android:id="@+id/btn_post_9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"

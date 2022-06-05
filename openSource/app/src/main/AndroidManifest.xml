@@ -12,6 +12,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OpenSource">
         <activity
+            android:name=".NoticeActivity12"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeActivity2"
+            android:exported="false" />
+        <activity
             android:name=".NoticeActivity"
             android:exported="false" />
         <activity

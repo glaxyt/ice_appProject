@@ -15,6 +15,8 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.io.Serializable;
+
 public class MapActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap googleMap;
@@ -25,11 +27,62 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
+        Intent intent = getIntent();
+        int num = intent.getExtras().getInt("key");
+
         btn_chat = findViewById(R.id.btn_chat);
         btn_chat.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Intent intent = new Intent(MapActivity.this, NoticeActivity.class);
-                startActivity(intent);
+                switch (num) {
+                    case 1 :
+                        Intent intent = new Intent(MapActivity.this, NoticeActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 2 :
+                        intent = new Intent(MapActivity.this, NoticeActivity2.class);
+                        startActivity(intent);
+                        break;
+                    case 3 :
+                        intent = new Intent(MapActivity.this, NoticeActivity3.class);
+                        startActivity(intent);
+                        break;
+                    case 4 :
+                        intent = new Intent(MapActivity.this, NoticeActivity4.class);
+                        startActivity(intent);
+                        break;
+                    case 5 :
+                        intent = new Intent(MapActivity.this, NoticeActivity5.class);
+                        startActivity(intent);
+                        break;
+                    case 6 :
+                        intent = new Intent(MapActivity.this, NoticeActivity6.class);
+                        startActivity(intent);
+                        break;
+                    case 7 :
+                        intent = new Intent(MapActivity.this, NoticeActivity7.class);
+                        startActivity(intent);
+                        break;
+                    case 8 :
+                        intent = new Intent(MapActivity.this, NoticeActivity8.class);
+                        startActivity(intent);
+                        break;
+                    case 9 :
+                        intent = new Intent(MapActivity.this, NoticeActivity9.class);
+                        startActivity(intent);
+                        break;
+                    case 10 :
+                        intent = new Intent(MapActivity.this, NoticeActivity10.class);
+                        startActivity(intent);
+                        break;
+                    case 11 :
+                        intent = new Intent(MapActivity.this, NoticeActivity11.class);
+                        startActivity(intent);
+                        break;
+                    case 12 :
+                        intent = new Intent(MapActivity.this, NoticeActivity12.class);
+                        startActivity(intent);
+                        break;
+                }
             }
         });
 
