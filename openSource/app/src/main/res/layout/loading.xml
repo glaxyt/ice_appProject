@@ -2,12 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#12BCAE"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#38B6FF"
     android:gravity="center"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".loading">
     <!-- 배경색, 화면 구성, 로딩 모션 화면 중앙에 배치 -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="182dp"
+        android:background="@drawable/hufsplit_icon" />
+    <!-- 앱의 제목 아이콘을 이미지뷰로 호출-->
     <com.github.ybq.android.spinkit.SpinKitView
         android:id="@+id/spin_kit"
         style="@style/SpinKitView.Large.Wave"

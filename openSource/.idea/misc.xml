@@ -3,35 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_app_start.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_editprofile.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_food_category.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_login.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_main2.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_map.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_notice.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_notice10.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_notice11.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_notice12.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_notice2.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_notice3.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_notice4.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_notice5.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_notice6.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_notice7.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_notice8.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_notice9.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_register.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_sample.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/activity_write.xml" value="0.25364583333333335" />
-        <entry key="..\:/OSS/TestGitSourceTree/openSource/app/src/main/res/layout/loading.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/dosunghyunandroid/Desktop/openSource/openSource/app/src/main/res/menu/main_menu.xml" value="0.1787037037037037" />
         <entry key="..\:/Users/dosunghyunandroid/Desktop/openSource/openSource/app/src/main/res/menu/menu_actionbarbtn.xml" value="0.1787037037037037" />
         <entry key="..\:/Users/dosunghyunandroid/Documents/ice_appProject/openSource/app/src/main/res/layout/activity_food_category.xml" value="0.24739583333333334" />
         <entry key="..\:/Users/dosunghyunandroid/Documents/ice_appProject/openSource/app/src/main/res/layout/activity_main.xml" value="0.24739583333333334" />
         <entry key="..\:/Users/dosunghyunandroid/Documents/ice_appProject/openSource/app/src/main/res/layout/activity_map.xml" value="0.24739583333333334" />
-        <entry key="..\:/Users/dosunghyunandroid/Documents/ice_appProject/openSource/app/src/main/res/layout/loading.xml" value="0.2515625" />
+        <entry key="..\:/Users/dosunghyunandroid/Documents/ice_appProject/openSource/app/src/main/res/layout/activity_notice2.xml" value="0.2515625" />
+        <entry key="..\:/Users/dosunghyunandroid/Documents/ice_appProject/openSource/app/src/main/res/layout/activity_write.xml" value="0.2515625" />
+        <entry key="..\:/Users/dosunghyunandroid/Documents/ice_appProject/openSource/app/src/main/res/layout/loading.xml" value="0.264" />
       </map>
     </option>
   </component>
