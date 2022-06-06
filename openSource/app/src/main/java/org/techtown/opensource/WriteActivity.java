@@ -28,7 +28,7 @@ public class WriteActivity extends AppCompatActivity {
         cancel = findViewById(R.id.cancel);
 
         Intent intent = getIntent();
-        int num = intent.getExtras().getInt("key");
+        int num = intent.getExtras().getInt("key"); //카테고리별 화면전환시 받은 변수값을 num에 저장
 
         ok.setOnClickListener(new View.OnClickListener() { //작성 내용을 받음 및 NoticeActivity로 화면전환
             @Override
@@ -36,11 +36,11 @@ public class WriteActivity extends AppCompatActivity {
                 str1 = et.getText().toString(); //String으로 반환
                 str2 = et_fd.getText().toString();
                 str3 = et_cnt.getText().toString();
-                switch (num) {
+                switch (num) {  //카테고리별 ex)일식카테고리에서 글을 작성하면 일식게시판에 저장되게끔 case 분류
                     case 1:
                         Intent intent = new Intent(WriteActivity.this, NoticeActivity.class);
-                        intent.putExtra("str", str1 + "\n" + str2 + "\n" + str3);
-                        startActivity(intent);
+                        intent.putExtra("str", str1 + "\n" + str2 + "\n" + str3); //str1, 2, 3을 한줄 씩
+                        startActivity(intent);                                               //출력하기 위헤 중간에 \n을 삽입
                         break;
                     case 2:
                         intent = new Intent(WriteActivity.this, NoticeActivity2.class);

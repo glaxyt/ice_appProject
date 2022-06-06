@@ -71,12 +71,6 @@
             android:name=".MapActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".appStart"
-            android:exported="false" />
-        <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity
@@ -84,9 +78,6 @@
             android:exported="false" />
         <activity
             android:name=".FoodCategory"
-            android:exported="true" />
-        <activity
-            android:name=".Sample"
             android:exported="true" />
     </application>
 

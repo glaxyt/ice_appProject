@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".NoticeActivity12">
 
     <!-- 배달비게시판 위치,색,크기 -->
     <TextView
@@ -27,6 +27,7 @@
         android:layout_below="@+id/tv12"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <!-- 글 작성 액티비티로 넘어가게해줄 버튼-->
